@@ -1,5 +1,9 @@
-x = int(input("Enter a number from 1 to 10: "))
-if 1 <= x <= 10:
-    print("Number is within the range")
-else:
-    print("Number is out of range")
+a=b=0
+for x in range(10):
+   x =str(input("which team you want to vote team a or team b: "))
+   if x=="a":
+      a+=1
+   else:
+      b+=1
+print("The votes of team A are :",a)
+print("The votes of team B are :",b)
