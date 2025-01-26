@@ -3,6 +3,7 @@ try:
     a=[6,3,4,5,5,3,7]
     print(a[num])
 except ValueError:
-    print("Invalid input")
+    print("Invalid input")8
+    
 except IndexError:
     print("Out of range")
